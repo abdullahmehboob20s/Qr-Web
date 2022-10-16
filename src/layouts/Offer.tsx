@@ -4,9 +4,11 @@ function Offer() {
   return (
     <div>
       <div className="container">
-        <h1 className="heading text-center mb-20">What we offer</h1>
+        <h1 className="heading text-center mb-10 md:mb-14 xl:mb-20">
+          What we offer
+        </h1>
 
-        <div className="grid grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-3 gap-6 lg:gap-8">
           <OfferCard
             img="images/money-recive.svg"
             desc="Secured distribution of rewards through our audited smart contracts."

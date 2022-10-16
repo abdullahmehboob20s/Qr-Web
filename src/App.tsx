@@ -12,15 +12,15 @@ function App() {
         <Navbar />
       </div>
 
-      <div className="mb-20">
+      <div className="mb-36 sm:mb-20">
         <Hero />
       </div>
 
-      {/* <div className="mb-150px">
+      <div className="mb-150px">
         <Offer />
       </div>
 
-      <Work />
+      {/* <Work />
 
       <SupportedChains />
 
