@@ -22,9 +22,9 @@ function App() {
 
       <Work />
 
-      {/* <SupportedChains />
+      <SupportedChains />
 
-      <Footer />  */}
+      {/* <Footer />  */}
     </div>
   );
 }

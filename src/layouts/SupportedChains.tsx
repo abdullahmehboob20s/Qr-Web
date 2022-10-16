@@ -10,11 +10,11 @@ function SupportedChains() {
         alt=""
       />
       <div className="container">
-        <h1 className="heading text-center mb-16 drop-shadow-effect-1">
+        <h1 className="heading text-center mb-6 sm:mb-10 lg:mb-16 drop-shadow-effect-1">
           Supported Chains
         </h1>
 
-        <div className="flex items-center justify-center space-x-16">
+        <div className="flex items-center justify-center space-x-5 sm:space-x-10 lg:space-x-16">
           <ChainIcon img="images/binance.png" color="#F0B90B" imgWidth="60%" />
           <ChainIcon img="images/etheruem.png" color="#627EEA" imgWidth="40%" />
           <ChainIcon
@@ -25,7 +25,11 @@ function SupportedChains() {
           />
           <ChainIcon
             Component={() => (
-              <img src="images/polygon.png" className="w-[74px] z-20" alt="" />
+              <img
+                src="images/polygon.png"
+                className="w-[40px] sm:w-[60px] lg:w-[74px] z-20"
+                alt=""
+              />
             )}
           />
         </div>

@@ -17,7 +17,7 @@ function ChainIcon({ color, img, imgWidth, imgStyles, Component }: Props) {
         <Component />
       ) : (
         <div
-          className="w-[74px] h-[74px] z-20 rounded-full flex items-center justify-center"
+          className="w-[40px] sm:w-[60px] lg:w-[74px] h-[40px] sm:h-[60px] lg:h-[74px] z-20 rounded-full flex items-center justify-center"
           style={{ backgroundColor: color }}
         >
           <img src={img} style={{ width: imgWidth, ...imgStyles }} alt="" />
