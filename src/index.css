@@ -48,6 +48,10 @@
     --navbar-height: 105px;
   }
 
+  html {
+    @apply overflow-x-hidden;
+  }
+
   * {
     @apply font-axiforma;
   }
@@ -85,6 +89,7 @@
   transition: all 0.4s ease;
   opacity: 0;
   pointer-events: none;
+  z-index: 100;
 }
 .black-screen.show {
   opacity: 1;

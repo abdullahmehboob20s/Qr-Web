@@ -8,15 +8,15 @@ import Footer from "layouts/Footer";
 function App() {
   return (
     <div>
-      <div className="mb-16">
+      <div className="mb-8 sm:mb-12 lg:mb-14 xl:mb-16">
         <Navbar />
       </div>
 
-      {/* <div className="mb-20">
+      <div className="mb-20">
         <Hero />
       </div>
 
-      <div className="mb-150px">
+      {/* <div className="mb-150px">
         <Offer />
       </div>
 
