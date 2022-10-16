@@ -36,10 +36,10 @@ function Footer() {
               </h4>
 
               <div className="space-y-4">
-                <a href="#" className="text-xs text-link block w-fit">
+                <a href="/" className="text-xs text-link block w-fit">
                   About Us
                 </a>
-                <a href="#" className="text-xs text-link block w-fit">
+                <a href="/" className="text-xs text-link block w-fit">
                   Team
                 </a>
               </div>
