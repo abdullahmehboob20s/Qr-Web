@@ -49,7 +49,7 @@ module.exports = {
         "purple-gradient-2":
           "linear-gradient(90deg, #19357C 0%, rgba(6, 6, 6, 0.93) 100%)",
         radial:
-          "radial-gradient(50% 50% at 50% 50%, #1B1464 10.61%, #534E8A 24.32%, #8783AD 38.67%, #B2B0CB 52.75%, #D4D2E1 66.2%, #ECEBF2 78.88%, #FAFAFC 90.48%, #FFFFFF 100%)",
+          "radial-gradient(50% 50% at 50% 50%, #1B1464 10.61%, #534E8A 24.32%, #8783AD 38.67%, #B2B0CB 52.75%, #d4d2e1d3 66.2%, #ecebf2c7 78.88%, #fafafcc9 90.48%, transparent 100%)",
       },
     },
   },
