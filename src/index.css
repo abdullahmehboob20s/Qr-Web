@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "arial-black";
+  src: url(../public/fonts/arial-black.ttf);
+}
+
+@font-face {
+  font-family: "Axiforma";
+  src: url(../public/fonts/Axiforma/Axiforma-Light.woff2);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(../public/fonts/Axiforma/Axiforma-Regular.woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(../public/fonts/Axiforma/Axiforma-Medium.woff2);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(../public/fonts/Axiforma/Axiforma-SemiBold.woff2);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(../public/fonts/Axiforma/Axiforma-Bold.woff2);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(../public/fonts/Axiforma/Axiforma-ExtraBold.woff2);
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(../public/fonts/Axiforma/Axiforma-Black.woff2);
+  font-weight: 800;
+}
+
+@layer base {
+  :root {
+    --navbar-height: 105px;
+  }
+
+  * {
+    @apply font-axiforma;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-[1440px] mx-auto w-[86%];
+  }
+
+  .heading {
+    @apply text-3xl font-bold;
+  }
+
+  .text-gradient {
+    background: linear-gradient(270.03deg, #01050d -203.25%, #19357c 106.86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+  .button {
+    @apply bg-purple-gradient rounded-md shadow-effect-1;
+  }
+}
