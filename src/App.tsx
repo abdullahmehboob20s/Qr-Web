@@ -24,7 +24,7 @@ function App() {
 
       <SupportedChains />
 
-      {/* <Footer />  */}
+      <Footer />
     </div>
   );
 }

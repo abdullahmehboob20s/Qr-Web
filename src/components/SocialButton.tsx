@@ -11,7 +11,7 @@ function SocialButton({ Icon, link = "/" }: Props) {
       href={link}
       target="_blank"
       rel="noreferrer"
-      className="bg-BLueSocial w-9 h-9 rounded flex items-center justify-center"
+      className="bg-BLueSocial w-8 h-8 lg:w-9 lg:h-9 rounded flex items-center justify-center"
     >
       {Icon && <Icon />}
     </a>

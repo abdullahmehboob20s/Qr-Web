@@ -2,16 +2,16 @@ import SocialButton from "components/SocialButton";
 
 function Footer() {
   return (
-    <div className="bg-LightBlue2 py-20">
+    <div className="bg-LightBlue2 py-12 lg:py-20">
       <div className="container">
         <div className="relative">
           <img
             src="images/logo.svg"
-            className="absolute -top-2 left-0 opacity-80"
+            className="lg:absolute mx-auto lg:mx-0 mb-14 lg:mb-0 -top-2 left-0 opacity-80 w-[100px] xl:w-[120px]"
             alt=""
           />
 
-          <div className="mb-16 flex justify-center space-x-20">
+          <div className="mb-16 flex justify-center space-x-12 md:space-x-20">
             <div>
               <h4 className="text-BLueSocial text-base font-bold mb-5">
                 Links
@@ -79,7 +79,7 @@ function Footer() {
             © EvolutionQR, all rights reserved
           </p>
 
-          <div className="absolute top-1/2 -translate-y-1/2 right-0 flex items-center space-x-3">
+          <div className="lg:absolute justify-center mt-6 lg:mt-0 top-1/2 lg:-translate-y-1/2 right-0 flex items-center space-x-3">
             <SocialButton
               link="/"
               Icon={() => <img src="images/twitter.svg" alt="" />}
