@@ -12,7 +12,7 @@ function App() {
         <Navbar />
       </div>
 
-      <div className="mb-20">
+      {/* <div className="mb-20">
         <Hero />
       </div>
 
@@ -24,7 +24,7 @@ function App() {
 
       <SupportedChains />
 
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

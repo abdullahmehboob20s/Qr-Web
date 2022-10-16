@@ -74,3 +74,37 @@
     @apply bg-purple-gradient rounded-md shadow-effect-1;
   }
 }
+
+.black-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: all 0.4s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+.black-screen.show {
+  opacity: 1;
+  pointer-events: visible;
+}
+
+@media (min-width: 200px) {
+  :root {
+    --navbar-height: 54px;
+  }
+}
+
+@media (min-width: 640px) {
+  :root {
+    --navbar-height: 64px;
+  }
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --navbar-height: 105px;
+  }
+}
