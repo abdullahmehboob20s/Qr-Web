@@ -16,15 +16,15 @@ function App() {
         <Hero />
       </div>
 
-      <div className="mb-150px">
+      <div className="mb-16 sm:mb-24 lg:mb-32 xl:mb-150px">
         <Offer />
       </div>
 
-      {/* <Work />
+      <Work />
 
-      <SupportedChains />
+      {/* <SupportedChains />
 
-      <Footer /> */}
+      <Footer />  */}
     </div>
   );
 }

@@ -1,15 +1,16 @@
 import MobileCard from "components/MobileCard";
 import SimpleCard from "components/SimpleCard";
-import React from "react";
 
 function Work() {
   return (
-    <div className="bg-LightBlue2 py-16">
-      <div className="mb-24">
+    <div className="bg-LightBlue2 py-12 md:py-16">
+      <div className="mb-20 sm:mb-24">
         <div className="container">
-          <h1 className="heading mb-16 text-center">How does it work?</h1>
+          <h1 className="heading mb-12 md:mb-16 text-center">
+            How does it work?
+          </h1>
 
-          <div className="grid grid-cols-3 gap-5">
+          <div className="grid md:grid-cols-3 gap-12 md:gap-5">
             <MobileCard img="images/mobile1.png" title="Make a purchase" />
             <MobileCard
               img="images/mobile2.png"
@@ -20,7 +21,7 @@ function Work() {
         </div>
       </div>
 
-      <div className="container grid grid-cols-2 gap-14">
+      <div className="container grid lg:grid-cols-2 gap-5 lg:gap-10 xl:gap-14">
         <SimpleCard
           textArray={[
             "At EvolutionQR, we reward every person who brings in new investors and adopters of the project, by using a unique QR code generated when you make a minimum purchase amount that is set by the project. ",
