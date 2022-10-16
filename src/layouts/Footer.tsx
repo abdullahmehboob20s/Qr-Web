@@ -18,13 +18,13 @@ function Footer() {
               </h4>
 
               <div className="space-y-4">
-                <a href="#" className="text-xs text-link block w-fit">
+                <a href="/" className="text-xs text-link block w-fit">
                   Home
                 </a>
-                <a href="#" className="text-xs text-link block w-fit">
+                <a href="/" className="text-xs text-link block w-fit">
                   Roadmap
                 </a>
-                <a href="#" className="text-xs text-link block w-fit">
+                <a href="/" className="text-xs text-link block w-fit">
                   Socials
                 </a>
               </div>
