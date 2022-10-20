@@ -1,31 +1,17 @@
-import Navbar from "layouts/Navbar";
-import Hero from "layouts/Hero";
-import Offer from "layouts/Offer";
-import Work from "layouts/Work";
-import SupportedChains from "layouts/SupportedChains";
-import Footer from "layouts/Footer";
+import HomePage from "pages/HomePage";
+import PrivacyAndPolicy from "pages/PrivacyAndPolicy";
+import TermsAndConditions from "pages/TermsAndConditions";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <div className="mb-8 sm:mb-12 lg:mb-14 xl:mb-16">
-        <Navbar />
-      </div>
-
-      <div className="mb-36 sm:mb-20">
-        <Hero />
-      </div>
-
-      <div className="mb-16 sm:mb-24 lg:mb-32 xl:mb-150px">
-        <Offer />
-      </div>
-
-      <Work />
-
-      <SupportedChains />
-
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/privacy-policy" element={<PrivacyAndPolicy />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+      </Routes>
+    </Router>
   );
 }
 

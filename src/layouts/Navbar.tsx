@@ -1,5 +1,6 @@
 import OutsideClickDetector from "hooks/OutsideClickDetector";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(false);
@@ -8,11 +9,13 @@ function Navbar() {
   return (
     <div className="border-b-1px border-b-black bg-transparent">
       <div className="container h-navbar-height flex items-center justify-between">
-        <img
-          src="images/logo.png"
-          className="w-[60px] sm:w-[70px] xl:w-[120px]"
-          alt=""
-        />
+        <Link to="/">
+          <img
+            src="images/logo.png"
+            className="w-[60px] sm:w-[70px] xl:w-[120px]"
+            alt=""
+          />
+        </Link>
 
         <button
           className="w-4 block sm:hidden"
